@@ -1,0 +1,32 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments, bytecode, and test artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependencies and generated builds
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
+
+# Local user uploads and runtime data (may contain private facial images)
+uploads/
+backend/uploads/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
