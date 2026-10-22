@@ -1,0 +1,11 @@
+# Ignore non-backend folders and large assets on Render build
+frontend/
+docs/
+Products/
+new/
+predict_image.py
+train_models.py
+backend/skin_analysis_dataset_6000.csv
+*.md
+.vscode/
+.pytest_cache/

@@ -58,6 +58,9 @@ Deploy `backend/` to a Python web-service host that supports Flask, the
 dependencies in `backend/requirements.txt`, and persistent file storage. Set
 these variables in the hosting provider's private environment settings:
 
+The backend's `.python-version` file pins Python 3.12.10 so deployment installs
+the pinned scientific/image-processing dependencies from compatible wheels.
+
 - `MONGODB_URI` — MongoDB Atlas connection string
 - `MONGODB_DATABASE` — for example `skinsense`
 - `SECRET_KEY` — a long, random secret unique to the deployment
